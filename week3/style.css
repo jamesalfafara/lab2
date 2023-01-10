@@ -1,12 +1,16 @@
 body {
     text-align: center;
-    background-color: rgb(200, 237, 255);
+    background-color: #88C0D0;
   }
+  
 h1 {
-    border: 2px solid;
-    border-radius: 5px;
-    color: rgb(45, 118, 255)
+    color: #5E81AC
 }
+
+p {
+color: #4C566A
+}
+
 img {
     width: 50%;
 }
