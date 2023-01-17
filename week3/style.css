@@ -1,14 +1,14 @@
+
+
 /* Header (Top part) */
 .header {
-    padding: 100px;
-    text-align: center;
-    background-image: url(abstract.jpeg);
+    padding: 50px;
+    background-color: aliceblue;
 }
-
 
 /* Navigation Bar */
 nav {
-    background-color: orangered;
+    background-color: rgb(91, 124, 176);
  }
  nav ul {
     list-style-type: none;
@@ -29,46 +29,64 @@ nav {
  nav a:hover {
     background-color: #111;
  }
- 
-/* Buttons */
-.button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-  img {
-    max-width: 300px;
-    max-height: 200px;
-  }
-
-.button1 {
-    background-color: orangered
-}
 
   
 /* Body (whole page) */
 body {
-    background-color: rgba(255, 220, 92, 0.5);
+    width: 100%;
+    background-color: rgb(201, 228, 246);
     text-align: center;
   }
   
 h1 {
-    font-family: 'Times New Roman', serif;
-    color: orangered;
-    background-color: white;
-    background-clip: padding-box;
-    padding: 20px;
+    text-align: center;
+    color: rgb(91, 124, 176);
 }
 
 h2 {
-    color: orangered;
+    text-align: center;
+    color: rgb(91, 124, 176);
+}
+
+.about-me-title {
+    text-align: left;
+    position: relative;
+    top: -550px;
+    right: -750px
+}
+
+.about-me-desc {
+    color: rgb(100, 130, 180);
+    text-align: left;
+    font-size:larger;
+    position: relative;
+    top: -550px;
+    right: -675px;
+    line-height: 150%;
+}
+
+.first-pic {
+    opacity: 50%;
+    position: relative;
+    top: 50px;
+    left: -350px;
+}
+
+.second-pic {
+    opacity: 50%;
+    position: relative;
+    top: -5000;
+    left: 350px;
+}
+
+.portfolio-button {
+    color: white;
+    background-color: rgb(91, 124, 176);
+    padding: 20px 20px;
+    position: relative;
+    left: -650px;
+    top: -400px;
+    border-radius: 20px;
 }
 
 p {
