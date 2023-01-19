@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
 body {
     background-color: rgb(201, 228, 246);
     color: rgb(91, 124, 176);
+    margin: 0;
 }
 
 nav {

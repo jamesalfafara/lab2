@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
 
 html, body {
     margin: 0;
@@ -35,6 +35,7 @@ nav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 15px;
  }
  nav a:hover {
     background-color: #111;
