@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(201, 228, 246);
+    color: rgb(91, 124, 176);
+}
+
+nav {
+    background-color: rgb(91, 124, 176);
+ }
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+ nav li {
+    float: left;
+    margin-left: 1%;
+ }
+ nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+ nav a:hover {
+    background-color: #111;
+ }
+
+.portfolio-1 {
+    text-align: center;
+}
+
+.port-1 {
+    padding-top: 5%;
+    width: 40%;
+    height: 40%;
+}
+
+.port-2 {
+    padding-top: 5%;
+    width: 40%;
+    height: 40%;
+}
+
+.port-3 {
+    padding-top: 5%;
+    width: 40%;
+    height: 40%;
+}
