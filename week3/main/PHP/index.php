@@ -114,8 +114,8 @@ echo $gender;
       die("Connection failed: " . $conn->connect_error);
     }
 
-    $sql = "INSERT INTO MyGuests (firstname, lastname, email)
-    VALUES ('$name', '$website', '$email')";
+    $sql = "INSERT INTO MyGuests (name, email, website, comment, gender)
+    VALUES ('$name', '$email', '$website', '$comment', '$gender')";
 
     if ($conn->query($sql) === TRUE) {
       echo "New record created successfully";
